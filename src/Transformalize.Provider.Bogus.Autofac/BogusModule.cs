@@ -47,25 +47,12 @@ namespace Transformalize.Providers.Bogus.Autofac {
                 builder.RegisterType<NullInputProvider>().Named<IInputProvider>(entity.Key);
 
                 // input reader
-                builder.Register<IRead>(ctx =>
-                {
+                builder.Register<IRead>(ctx => {
                     var input = ctx.ResolveNamed<InputContext>(entity.Key);
                     var rowFactory = ctx.ResolveNamed<IRowFactory>(entity.Key, new NamedParameter("capacity", input.RowCapacity));
 
                     return new BogusReader(input, rowFactory);
                 }).Named<IRead>(entity.Key);
-            }
-
-            if (process.Output().Provider == ProviderName) {
-                // PROCESS OUTPUT CONTROLLER
-                builder.Register<IOutputController>(ctx => new NullOutputController()).As<IOutputController>();
-
-                foreach (var entity in process.Entities) {
-                    builder.Register<IOutputController>(ctx => new NullOutputController()).Named<IOutputController>(entity.Key);
-
-                    // ENTITY WRITER
-                    builder.Register<IWrite>(ctx => new NullWriter()).Named<IWrite>(entity.Key);
-                }
             }
 
         }
