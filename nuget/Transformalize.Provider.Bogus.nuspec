@@ -2,21 +2,21 @@
 <package>
   <metadata>
     <id>Transformalize.Provider.Bogus</id>
-    <version>0.3.3-beta</version>
+    <version>0.3.4-beta</version>
     <title>Transformalize Provider for Bogus</title>
     <authors>Dale Newman</authors>
     <owners>Dale Newman</owners>
     <licenseUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus</projectUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Transformalize Provider for Bogus</description>
-    <releaseNotes>initial release</releaseNotes>
+    <releaseNotes>updated bogus and transformalize</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>etl</tags>
     <dependencies>
       <group targetFramework="net452">
-        <dependency id="Transformalize" version="0.3.3-beta" />
-        <dependency id="Bogus" version="22.0.2" />
+        <dependency id="Transformalize" version="0.3.4-beta" />
+        <dependency id="Bogus" version="22.0.5" />
       </group>
     </dependencies>
   </metadata>
