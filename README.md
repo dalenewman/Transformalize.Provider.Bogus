@@ -46,4 +46,4 @@ fake data is created per the API.
 In addition, the `format`, `min`, and `max` attributes 
 are used to create other forms of test data (e.g. the `Stars` field above).
 
-This provider will be available as a plugin for Transformalize 0.2.9-beta.
+This provider is available as a plugin for Transformalize 0.3.5-beta.
