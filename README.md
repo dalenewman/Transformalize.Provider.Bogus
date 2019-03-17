@@ -1,6 +1,6 @@
 This is a [bogus](https://github.com/bchavez/Bogus) input provider for [Transformalize](https://github.com/dalenewman/Transformalize).
 
-It is still a work in progress.  About half of the [Bogus API Support](https://github.com/bchavez/Bogus/blob/master/README.md#bogus-api-support) is 
+It is still a work in progress.  Some of the [Bogus API Support](https://github.com/bchavez/Bogus/blob/master/README.md#bogus-api-support) is 
 implemented.  You can use Transformalize arrangements to generate test data 
 like this:
 
@@ -41,9 +41,7 @@ Saving this as *bogus.xml* and running produces:
 </pre>
 
 If the field's `name` is on the [Bogus API](https://github.com/bchavez/Bogus/blob/master/README.md#bogus-api-support), 
-fake data is created per the API.
+fake data is created.
 
 In addition, the `format`, `min`, and `max` attributes 
 are used to create other forms of test data (e.g. the `Stars` field above).
-
-This provider is available as a plugin for Transformalize 0.3.5-beta.
