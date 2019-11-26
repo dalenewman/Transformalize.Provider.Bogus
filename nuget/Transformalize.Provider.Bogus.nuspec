@@ -10,13 +10,13 @@
     <projectUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Transformalize Provider for Bogus</description>
-    <releaseNotes>updated bogus</releaseNotes>
+    <releaseNotes>updated dependencies</releaseNotes>
     <copyright>Copyright 2018-2019</copyright>
     <tags>etl</tags>
     <dependencies>
       <group targetFramework="net462">
         <dependency id="Transformalize" version="0.6.20-beta" />
-        <dependency id="Bogus" version="26.0.1" />
+        <dependency id="Bogus" version="28.4.1" />
       </group>
     </dependencies>
   </metadata>
