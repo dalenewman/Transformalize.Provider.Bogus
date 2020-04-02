@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Transformalize.Providers.Bogus</RootNamespace>
+    <AssemblyName>Transformalize.Provider.Bogus</AssemblyName>
+    <Version>0.6.28</Version>
+  </PropertyGroup>
+
+  <Import Project="..\..\Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="29.0.1" />
+    <PackageReference Include="Transformalize" Version="0.6.28-beta" />
+  </ItemGroup>
+
+</Project>

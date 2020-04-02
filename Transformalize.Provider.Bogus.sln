@@ -17,7 +17,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Unit", "src\Tests.Unit\Tests.Unit.csproj", "{57A8D3B7-EC07-44A3-BE58-1BD39B3C499F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{5D31E804-0F59-4EC2-9C06-8D61B58ACBD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider.Autofac", "Provider.Autofac", "{22963725-DF0E-4D19-90CF-164B0CC67330}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Provider.Bogus.Shared", "Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.shproj", "{51EDBAC9-4C45-4132-BF02-938B3F3A9011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Provider.Bogus.Standard.20", "src\Transformalize.Provider.Bogus.Standard.20\Transformalize.Provider.Bogus.Standard.20.csproj", "{BFA99794-A585-4CFB-A9FA-25957162E89E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Provider.Bogus.Autofac.Shared", "src\Transformalize.Provider.Bogus.Autofac.Shared\Transformalize.Provider.Bogus.Autofac.Shared.shproj", "{83BA04BC-7610-4812-ACC0-331DEB607A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Provider.Bogus.Autofac.Standard.20", "src\Transformalize.Provider.Bogus.Autofac.Standard.20\Transformalize.Provider.Bogus.Autofac.Standard.20.csproj", "{0F019A1B-1305-40C3-B876-E74037AC03E2}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Transformalize.Provider.Bogus.Autofac.Shared\Transformalize.Provider.Bogus.Autofac.Shared.projitems*{0f019a1b-1305-40c3-b876-e74037ac03e2}*SharedItemsImports = 5
+		Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems*{51edbac9-4c45-4132-bf02-938b3f3a9011}*SharedItemsImports = 13
+		src\Transformalize.Provider.Bogus.Autofac.Shared\Transformalize.Provider.Bogus.Autofac.Shared.projitems*{83ba04bc-7610-4812-acc0-331deb607a90}*SharedItemsImports = 13
+		Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems*{bfa99794-a585-4cfb-a9fa-25957162e89e}*SharedItemsImports = 5
+		Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems*{d9bcff3b-3bfe-434a-9778-26901611b640}*SharedItemsImports = 4
+		src\Transformalize.Provider.Bogus.Autofac.Shared\Transformalize.Provider.Bogus.Autofac.Shared.projitems*{e142a53d-b128-4da4-ac4b-9e576b9f8efd}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -35,9 +55,25 @@ Global
 		{57A8D3B7-EC07-44A3-BE58-1BD39B3C499F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A8D3B7-EC07-44A3-BE58-1BD39B3C499F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A8D3B7-EC07-44A3-BE58-1BD39B3C499F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA99794-A585-4CFB-A9FA-25957162E89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA99794-A585-4CFB-A9FA-25957162E89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA99794-A585-4CFB-A9FA-25957162E89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA99794-A585-4CFB-A9FA-25957162E89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F019A1B-1305-40C3-B876-E74037AC03E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F019A1B-1305-40C3-B876-E74037AC03E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F019A1B-1305-40C3-B876-E74037AC03E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F019A1B-1305-40C3-B876-E74037AC03E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9BCFF3B-3BFE-434A-9778-26901611B640} = {5D31E804-0F59-4EC2-9C06-8D61B58ACBD7}
+		{E142A53D-B128-4DA4-AC4B-9E576B9F8EFD} = {22963725-DF0E-4D19-90CF-164B0CC67330}
+		{51EDBAC9-4C45-4132-BF02-938B3F3A9011} = {5D31E804-0F59-4EC2-9C06-8D61B58ACBD7}
+		{BFA99794-A585-4CFB-A9FA-25957162E89E} = {5D31E804-0F59-4EC2-9C06-8D61B58ACBD7}
+		{83BA04BC-7610-4812-ACC0-331DEB607A90} = {22963725-DF0E-4D19-90CF-164B0CC67330}
+		{0F019A1B-1305-40C3-B876-E74037AC03E2} = {22963725-DF0E-4D19-90CF-164B0CC67330}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF182E3E-1928-485C-936A-03E1EFAFB65E}

@@ -1,26 +1,32 @@
 <?xml version="1.0"?>
 <package>
-  <metadata>
-    <id>Transformalize.Provider.Bogus</id>
-    <version>0.6.21-beta</version>
-    <title>Transformalize Provider for Bogus</title>
-    <authors>Dale Newman</authors>
-    <owners>Dale Newman</owners>
-    <licenseUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Transformalize Provider for Bogus</description>
-    <releaseNotes>updated dependencies</releaseNotes>
-    <copyright>Copyright 2018-2019</copyright>
-    <tags>etl</tags>
-    <dependencies>
-      <group targetFramework="net462">
-        <dependency id="Transformalize" version="0.6.20-beta" />
-        <dependency id="Bogus" version="28.4.1" />
-      </group>
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="..\src\Transformalize.Provider.Bogus\bin\Release\Transformalize.Provider.Bogus.dll" target="lib\net462\Transformalize.Provider.Bogus.dll" />
-  </files>
+   <metadata>
+      <id>Transformalize.Provider.Bogus</id>
+      <version>0.6.28-beta</version>
+      <title>Transformalize Provider for Bogus</title>
+      <authors>Dale Newman</authors>
+      <owners>Dale Newman</owners>
+      <licenseUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus/blob/master/LICENSE.md</licenseUrl>
+      <projectUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus</projectUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>Transformalize Provider for Bogus</description>
+      <releaseNotes>added .net standard 2.0 target</releaseNotes>
+      <copyright>Copyright 2018-2020</copyright>
+      <tags>etl</tags>
+      <dependencies>
+         <group targetFramework="net462">
+            <dependency id="Transformalize" version="0.6.28-beta" />
+            <dependency id="Bogus" version="29.0.1" />
+         </group>
+         <group targetFramework="netstandard2.0">
+            <dependency id="Transformalize" version="0.6.28-beta" />
+            <dependency id="Bogus" version="29.0.1" />
+         </group>
+      </dependencies>
+   </metadata>
+   <files>
+      <file src="..\src\Transformalize.Provider.Bogus\bin\Release\Transformalize.Provider.Bogus.dll" target="lib\net462\Transformalize.Provider.Bogus.dll" />
+      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Release\netstandard2.0\Transformalize.Provider.Bogus.deps.json" target="lib\netstandard2.0\Transformalize.Provider.Bogus.deps.json" />
+      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Release\netstandard2.0\Transformalize.Provider.Bogus.dll" target="lib\netstandard2.0\Transformalize.Provider.Bogus.dll" />
+   </files>
 </package>
