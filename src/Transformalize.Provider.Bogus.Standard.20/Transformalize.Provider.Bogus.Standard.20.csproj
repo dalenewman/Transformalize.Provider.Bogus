@@ -10,8 +10,8 @@
   <Import Project="..\..\Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="29.0.1" />
-    <PackageReference Include="Transformalize" Version="0.6.28-beta" />
+    <PackageReference Include="Bogus" Version="29.0.2" />
+    <PackageReference Include="Transformalize" Version="0.6.29-beta" />
   </ItemGroup>
 
 </Project>
