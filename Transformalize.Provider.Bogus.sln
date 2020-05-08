@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Provider.Bog
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3699549D-CA19-4914-96BB-BFE5690F8F31}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		nuget\myget.bat = nuget\myget.bat
 		nuget\nuget.bat = nuget\nuget.bat
 		README.md = README.md
 		nuget\Transformalize.Provider.Bogus.Autofac.nuspec = nuget\Transformalize.Provider.Bogus.Autofac.nuspec
@@ -23,11 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider.Autofac", "Provide
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Provider.Bogus.Shared", "Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.shproj", "{51EDBAC9-4C45-4132-BF02-938B3F3A9011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Provider.Bogus.Standard.20", "src\Transformalize.Provider.Bogus.Standard.20\Transformalize.Provider.Bogus.Standard.20.csproj", "{BFA99794-A585-4CFB-A9FA-25957162E89E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transformalize.Provider.Bogus.Standard.20", "src\Transformalize.Provider.Bogus.Standard.20\Transformalize.Provider.Bogus.Standard.20.csproj", "{BFA99794-A585-4CFB-A9FA-25957162E89E}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Provider.Bogus.Autofac.Shared", "src\Transformalize.Provider.Bogus.Autofac.Shared\Transformalize.Provider.Bogus.Autofac.Shared.shproj", "{83BA04BC-7610-4812-ACC0-331DEB607A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Provider.Bogus.Autofac.Standard.20", "src\Transformalize.Provider.Bogus.Autofac.Standard.20\Transformalize.Provider.Bogus.Autofac.Standard.20.csproj", "{0F019A1B-1305-40C3-B876-E74037AC03E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transformalize.Provider.Bogus.Autofac.Standard.20", "src\Transformalize.Provider.Bogus.Autofac.Standard.20\Transformalize.Provider.Bogus.Autofac.Standard.20.csproj", "{0F019A1B-1305-40C3-B876-E74037AC03E2}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

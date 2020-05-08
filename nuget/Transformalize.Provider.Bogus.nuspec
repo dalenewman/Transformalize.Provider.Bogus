@@ -2,11 +2,11 @@
 <package>
    <metadata>
       <id>Transformalize.Provider.Bogus</id>
-      <version>0.6.29-beta</version>
+      <version>0.7.6-beta</version>
       <title>Transformalize Provider for Bogus</title>
       <authors>Dale Newman</authors>
       <owners>Dale Newman</owners>
-      <licenseUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus/blob/master/LICENSE.md</licenseUrl>
+      <license type="expression">Apache-2.0</license>
       <projectUrl>https://github.com/dalenewman/Transformalize.Provider.Bogus</projectUrl>
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
       <description>Transformalize Provider for Bogus</description>
@@ -15,18 +15,20 @@
       <tags>etl</tags>
       <dependencies>
          <group targetFramework="net462">
-            <dependency id="Transformalize" version="0.6.29-beta" />
+            <dependency id="Transformalize" version="0.7.6-beta" />
             <dependency id="Bogus" version="29.0.2" />
          </group>
          <group targetFramework="netstandard2.0">
-            <dependency id="Transformalize" version="0.6.29-beta" />
+            <dependency id="Transformalize" version="0.7.6-beta" />
             <dependency id="Bogus" version="29.0.2" />
          </group>
       </dependencies>
    </metadata>
    <files>
-      <file src="..\src\Transformalize.Provider.Bogus\bin\Release\Transformalize.Provider.Bogus.dll" target="lib\net462\Transformalize.Provider.Bogus.dll" />
-      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Release\netstandard2.0\Transformalize.Provider.Bogus.deps.json" target="lib\netstandard2.0\Transformalize.Provider.Bogus.deps.json" />
-      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Release\netstandard2.0\Transformalize.Provider.Bogus.dll" target="lib\netstandard2.0\Transformalize.Provider.Bogus.dll" />
+      <file src="..\src\Transformalize.Provider.Bogus\bin\Debug\Transformalize.Provider.Bogus.dll" target="lib\net462\Transformalize.Provider.Bogus.dll" />
+      <file src="..\src\Transformalize.Provider.Bogus\bin\Debug\Transformalize.Provider.Bogus.pdb" target="lib\net462\Transformalize.Provider.Bogus.pdb" />
+      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Debug\netstandard2.0\Transformalize.Provider.Bogus.deps.json" target="lib\netstandard2.0\Transformalize.Provider.Bogus.deps.json" />
+      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Debug\netstandard2.0\Transformalize.Provider.Bogus.dll" target="lib\netstandard2.0\Transformalize.Provider.Bogus.dll" />
+      <file src="..\src\Transformalize.Provider.Bogus.Standard.20\bin\Debug\netstandard2.0\Transformalize.Provider.Bogus.pdb" target="lib\netstandard2.0\Transformalize.Provider.Bogus.pdb" />
    </files>
 </package>
