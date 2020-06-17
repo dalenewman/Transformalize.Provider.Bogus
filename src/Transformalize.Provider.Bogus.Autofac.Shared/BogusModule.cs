@@ -41,7 +41,7 @@ namespace Transformalize.Providers.Bogus.Autofac {
             }
 
             // Entity input
-            foreach (var entity in process.Entities.Where(e => process.Connections.First(c => c.Name == e.Connection).Provider == ProviderName)) {
+            foreach (var entity in process.Entities.Where(e => process.Connections.First(c => c.Name == e.Input).Provider == ProviderName)) {
 
                 // input version detector
                 builder.RegisterType<NullInputProvider>().Named<IInputProvider>(entity.Key);
