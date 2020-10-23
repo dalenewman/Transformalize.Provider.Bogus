@@ -7,7 +7,7 @@
   </PropertyGroup>
   <Import Project="..\..\Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems" Label="Shared" />
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="29.0.2" />
+    <PackageReference Include="Bogus" Version="31.0.3" />
     <PackageReference Include="Transformalize" Version="0.8.29-beta" />
   </ItemGroup>
 </Project>
