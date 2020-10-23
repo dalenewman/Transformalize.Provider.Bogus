@@ -3,11 +3,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Transformalize.Providers.Bogus</RootNamespace>
     <AssemblyName>Transformalize.Provider.Bogus</AssemblyName>
-    <Version>0.8.29-beta</Version>
+    <Version>0.10.0-beta</Version>
+    <FileVersion>0.10.0</FileVersion>
+    <AssemblyVersion>0.10.0</AssemblyVersion>
   </PropertyGroup>
   <Import Project="..\..\Transformalize.Provider.Bogus.Shared\Transformalize.Provider.Bogus.Shared.projitems" Label="Shared" />
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="29.0.2" />
-    <PackageReference Include="Transformalize" Version="0.8.29-beta" />
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Transformalize" Version="0.10.0-beta" />
   </ItemGroup>
 </Project>
