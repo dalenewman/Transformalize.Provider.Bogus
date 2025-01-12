@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using Autofac;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Autofac;
 using Transformalize.Configuration;
 using Transformalize.Containers.Autofac;
 using Transformalize.Contracts;
